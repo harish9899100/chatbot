@@ -1,0 +1,60 @@
+module: "Purchases Management"
+description: "Comprehensive guides for managing sales orders, transactions, packages, and retail products in the admin dashboard"
+
+Sales Orders:
+  description: "Management of sales orders, invoices, and order fulfillment processes"
+  items:
+    - title: "All Orders of Sales"
+      file: "all_orders_of_sales.md"
+      description: "Step-by-step instructions for accessing and managing all sales orders including order details, notes, invoices, and voiding"
+      tags: ["sales", "orders", "invoices", "order-details", "order-notes", "void-orders"]
+      difficulty: "beginner"
+      
+    - title: "All Transactions of Sales"
+      file: "all_transactions_of_sales.md"
+      description: "Guide for managing sales transactions including payment processing, refunds, and transaction management"
+      tags: ["sales", "transactions", "payments", "refunds", "void-transactions", "charge-payments"]
+      difficulty: "beginner"
+
+Package Management:
+  description: "Management of user packages, recurring packages, and package operations"
+  items:
+    - title: "User Packages of Sales"
+      file: "user_packages_of_sales.md"
+      description: "Instructions for managing user packages including package details, restrictions, sharing, and task management"
+      tags: ["packages", "user-packages", "package-restrictions", "package-sharing", "task-management"]
+      difficulty: "intermediate"
+      
+    - title: "User Recurring Packages"
+      file: "user_recurring_packages.md"
+      description: "Guide for managing recurring packages including membership termination, suspension, and recurring billing management"
+      tags: ["recurring-packages", "memberships", "suspension", "termination", "recurring-billing"]
+      difficulty: "intermediate"
+
+Product Management:
+  description: "Management of retail products and gift cards in the sales system"
+  items:
+    - title: "Retail Products in Sales"
+      file: "retail_products_in_sales.md"
+      description: "Instructions for managing retail products including product details, returns, refunds, and product management"
+      tags: ["retail-products", "product-details", "returns", "refunds", "product-management"]
+      difficulty: "beginner"
+      
+    - title: "Gift Card in Sales"
+      file: "gift_card_in_sales.md"
+      description: "Guide for managing gift cards including redemption, sharing, editing, and gift card operations"
+      tags: ["gift-cards", "redemption", "sharing", "gift-card-codes", "recipient-management"]
+      difficulty: "beginner"
+
+common_urls:
+  admin_dashboard: "https://coreology.staging.mgrapp.com/next/admin"
+  sales_section: "https://coreology.staging.mgrapp.com/admin/sales"
+  orders_dashboard: "https://coreology.staging.mgrapp.com/admin/orders"
+  transactions_dashboard: "https://coreology.staging.mgrapp.com/admin/transactions"
+  user_packages: "https://coreology.staging.mgrapp.com/admin/user_packages"
+  retail_products: "https://coreology.staging.mgrapp.com/admin/purchases/retail_products"
+  gift_cards: "https://coreology.staging.mgrapp.com/admin/purchases/gift_cards"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex purchase management issues" 

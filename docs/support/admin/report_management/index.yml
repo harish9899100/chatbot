@@ -1,0 +1,79 @@
+module: "Report Management"
+description: "Comprehensive guides for accessing and analyzing various business reports in the admin dashboard"
+
+Sales Reports:
+  description: "Reports focused on sales performance, transactions, and revenue analysis"
+  items:
+    - title: "Summary Sales Report"
+      file: "summary-sales-report.md"
+      description: "Step-by-step instructions for accessing and using the Summary Sales Report with transaction type filtering"
+      tags: ["sales", "transactions", "credited", "failed", "refunded", "voided", "complete"]
+      difficulty: "beginner"
+      
+    - title: "Detailed Sales Report"
+      file: "detailed-sales-report.md"
+      description: "Guide for using the Detailed Sales Report with package category filtering and analysis"
+      tags: ["sales", "packages", "retail", "onetime", "recurring", "gift-card"]
+      difficulty: "beginner"
+      
+    - title: "Sales By Packages Report"
+      file: "sales-by-packages-report.md"
+      description: "Instructions for analyzing individual package performance using the Sales By Packages Report"
+      tags: ["sales", "packages", "individual", "5-classes", "test", "abl"]
+      difficulty: "beginner"
+
+Financial Reports:
+  description: "Reports focused on financial operations, taxes, and cash management"
+  items:
+    - title: "Sales Tax Report"
+      file: "sales-tax-report.md"
+      description: "Guide for accessing and analyzing location-based sales tax data and compliance"
+      tags: ["tax", "compliance", "locations", "manhattan-beach", "palos-verdes"]
+      difficulty: "intermediate"
+      
+    - title: "Cash Register Report"
+      file: "cash-register-report.md"
+      description: "Instructions for using the Cash Register Report to analyze cash transaction performance by location"
+      tags: ["cash", "register", "transactions", "locations", "reconciliation"]
+      difficulty: "intermediate"
+      
+    - title: "Account Balance Report"
+      file: "account-balance-report.md"
+      description: "Guide for analyzing account balance data and financial planning across different locations"
+      tags: ["account", "balance", "financial", "planning", "locations"]
+      difficulty: "intermediate"
+
+Operational Reports:
+  description: "Reports focused on business operations, client acquisition, and service delivery"
+  items:
+    - title: "New Clients Report"
+      file: "new-clients-report.md"
+      description: "Instructions for analyzing client acquisition metrics including new users, paid users, and revenue"
+      tags: ["clients", "acquisition", "new-users", "paid-users", "active-users", "revenue"]
+      difficulty: "beginner"
+      
+    - title: "Reservation By Class Report"
+      file: "reservation-by-class-report.md"
+      description: "Guide for analyzing class reservation data and popularity across different fitness offerings"
+      tags: ["reservations", "classes", "fitness", "full-body-workout", "dance-fit", "barre-sculpt"]
+      difficulty: "beginner"
+      
+    - title: "Reservation By Instructor Report"
+      file: "reservation-by-instructor-report.md"
+      description: "Instructions for analyzing instructor performance and popularity using reservation data"
+      tags: ["reservations", "instructors", "performance", "ajeet-5", "eugene"]
+      difficulty: "beginner"
+      
+    - title: "Package Renewals Report"
+      file: "package-renewals-report.md"
+      description: "Guide for analyzing package renewal performance and customer retention trends"
+      tags: ["renewals", "packages", "retention", "customers", "locations"]
+      difficulty: "intermediate"
+
+common_urls:
+  reports_dashboard: "https://coreology.staging.mgrapp.com/admin/reports"
+  admin_dashboard: "https://coreology.staging.mgrapp.com/next/admin"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex reporting issues" 

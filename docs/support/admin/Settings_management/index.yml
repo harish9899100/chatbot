@@ -1,0 +1,127 @@
+module: "Settings Management"
+description: "Comprehensive guides for managing and configuring various system settings in the admin dashboard"
+
+Core Settings:
+  description: "Essential settings for basic system configuration and management"
+  items:
+    - title: "Client Settings Management"
+      file: "client_settings_management.md"
+      description: "Step-by-step instructions for managing custom traits, note types, and account deletion policies"
+      tags: ["clients", "custom-traits", "labels", "note-types", "account-deletion"]
+      difficulty: "beginner"
+      
+    - title: "Reviews Settings Management"
+      file: "reviews_settings_management.md"
+      description: "Guide for configuring review settings, review requests, and review collection policies"
+      tags: ["reviews", "review-requests", "review-settings", "moderation"]
+      difficulty: "beginner"
+      
+    - title: "Branding Settings Management"
+      file: "branding_settings_management.md"
+      description: "Instructions for managing app UI branding, domain whitelist, and domain alias configurations"
+      tags: ["branding", "app-ui", "domain-whitelist", "domain-alias"]
+      difficulty: "intermediate"
+      
+    - title: "Studio Settings Management"
+      file: "studio_settings_management.md"
+      description: "Guide for configuring studio details, contact information, URLs, and global pause settings"
+      tags: ["studio", "contact-info", "urls", "global-pause", "business-details"]
+      difficulty: "beginner"
+
+Business Configuration:
+  description: "Settings for business operations, products, and scheduling management"
+  items:
+    - title: "Product Settings Management"
+      file: "product_settings_management.md"
+      description: "Instructions for managing retail products configuration and package termination behavior"
+      tags: ["products", "retail", "package-termination", "delivery-type"]
+      difficulty: "intermediate"
+      
+    - title: "Classes and Schedule Settings Management"
+      file: "classes_schedule_settings_management.md"
+      description: "Comprehensive guide for managing class scheduling, slot properties, and reservation settings"
+      tags: ["classes", "scheduling", "slot-properties", "reservations", "global-pause"]
+      difficulty: "intermediate"
+      
+    - title: "Date and Time Settings Management"
+      file: "date_time_settings_management.md"
+      description: "Guide for configuring date formats, time zones, and temporal system settings"
+      tags: ["date", "time", "timezone", "format", "temporal"]
+      difficulty: "beginner"
+
+Communication and Integration:
+  description: "Settings for communication, integrations, and external service connections"
+  items:
+    - title: "Conversation Settings Management"
+      file: "conversation_settings_management.md"
+      description: "Instructions for managing conversation settings and communication preferences"
+      tags: ["conversations", "communication", "chat", "messaging"]
+      difficulty: "beginner"
+      
+    - title: "Integrations Settings Management"
+      file: "integrations_settings_management.md"
+      description: "Guide for configuring third-party integrations including Mailchimp, Constant Contact, and Class Pass"
+      tags: ["integrations", "mailchimp", "constant-contact", "class-pass", "api-keys"]
+      difficulty: "intermediate"
+      
+    - title: "Embed Settings Management"
+      file: "embed_settings_management.md"
+      description: "Instructions for generating embed codes and integrating MGR functionality into external websites"
+      tags: ["embed", "integration", "website", "modules", "embed-codes"]
+      difficulty: "advanced"
+
+Financial and Compliance:
+  description: "Settings for payment processing, taxes, and business compliance"
+  items:
+    - title: "Payment and Taxes Settings Management"
+      file: "payment_taxes_settings_management.md"
+      description: "Guide for managing payment settings, sales tax categories, Stripe integration, and charge attempts"
+      tags: ["payments", "taxes", "stripe", "sales-tax", "charge-attempts"]
+      difficulty: "intermediate"
+      
+    - title: "Policies Settings Management"
+      file: "policies_settings_management.md"
+      description: "Instructions for managing terms & conditions, no-show policies, contracts, and COVID-19 policies"
+      tags: ["policies", "terms-conditions", "no-show", "contracts", "covid-19"]
+      difficulty: "beginner"
+
+System Administration:
+  description: "Settings for system administration, user management, and technical configurations"
+  items:
+    - title: "Locations Settings Management"
+      file: "locations_settings_management.md"
+      description: "Guide for managing multiple business locations, editing location details, and controlling location status"
+      tags: ["locations", "multi-location", "location-details", "location-status"]
+      difficulty: "beginner"
+      
+    - title: "Marketing Settings Management"
+      file: "marketing_settings_management.md"
+      description: "Instructions for configuring package notification reminders and marketing automation settings"
+      tags: ["marketing", "notifications", "reminders", "automation", "packages"]
+      difficulty: "intermediate"
+      
+    - title: "Roles Settings Management"
+      file: "roles_settings_management.md"
+      description: "Guide for managing user roles, configuring permissions, and controlling access levels"
+      tags: ["roles", "permissions", "access-control", "user-management", "security"]
+      difficulty: "intermediate"
+      
+    - title: "Mobile App Info Settings Management"
+      file: "mobile_app_info_settings_management.md"
+      description: "Instructions for managing mobile application information, version details, and app configuration"
+      tags: ["mobile-app", "app-info", "version", "app-configuration"]
+      difficulty: "intermediate"
+      
+    - title: "Miscellaneous Settings Management"
+      file: "miscellaneous_settings_management.md"
+      description: "Guide for managing general system settings, questionnaire configurations, and other miscellaneous options"
+      tags: ["miscellaneous", "questionnaire", "general-settings", "system-configuration"]
+      difficulty: "beginner"
+
+common_urls:
+  admin_dashboard: "https://coreology.staging.mgrapp.com/next/admin"
+  settings_section: "https://coreology.staging.mgrapp.com/next/admin/settings"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex settings configuration issues" 

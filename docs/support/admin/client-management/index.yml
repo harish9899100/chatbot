@@ -1,0 +1,52 @@
+module: "Client Management"
+description: "Comprehensive guides for managing clients, client groups, and client data in the admin dashboard"
+
+Client Creation:
+  description: "Guides for creating and setting up new client profiles"
+  items:
+    - title: "Add New Client"
+      file: "add-new-client.md"
+      description: "Step-by-step instructions for creating new client profiles with personal details, address, and preferences"
+      tags: ["clients", "create", "profile", "registration"]
+      difficulty: "beginner"
+
+Client Management:
+  description: "Tools and procedures for managing existing client profiles and information"
+  items:
+    - title: "Manage Existing Client"
+      file: "manage-existing-client.md"
+      description: "Edit client details, merge duplicate profiles, and update contact information"
+      tags: ["clients", "edit", "merge", "update", "contact"]
+      difficulty: "beginner"
+      
+    - title: "Client Profile Detail View"
+      file: "client-profile-detail-view.md"
+      description: "Comprehensive guide to viewing and managing detailed client profiles including all tabs, schedule management, financial transactions, and account settings"
+      tags: ["clients", "profile", "view", "schedule", "transactions", "account", "charges", "communications"]
+      difficulty: "intermediate"
+
+Group Management:
+  description: "Create and manage client groups for targeted communication and organization"
+  items:
+    - title: "Create Group From Search"
+      file: "create-group-from-search.md"
+      description: "Create dynamic groups using search filters that automatically update membership"
+      tags: ["groups", "create", "dynamic", "filters", "search"]
+      difficulty: "intermediate"
+
+Data Management:
+  description: "Export and analyze client data for reporting and external systems"
+  items:
+    - title: "Export Client Data"
+      file: "export-client-data.md"
+      description: "Export client information in CSV and XLSX formats for reporting and data analysis"
+      tags: ["export", "data", "csv", "xlsx", "reports"]
+      difficulty: "beginner"
+  
+common_urls:
+  admin_dashboard: "https://coreology.staging.mgrapp.com/next/admin"
+  clients_dashboard: "https://coreology.staging.mgrapp.com/next/admin/users"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex client management issues" 

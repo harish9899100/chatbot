@@ -1,0 +1,94 @@
+module: "Product Management"
+description: "Comprehensive guides for managing products, packages, memberships, retail items, gift cards, and promotions in the admin dashboard"
+
+Product Creation:
+  description: "Guides for creating new products across different categories"
+  items:
+    - title: "Add New Package or Membership"
+      file: "add_new_package_membership.md"
+      description: "Step-by-step instructions for creating new packages and memberships with attributes and restrictions"
+      tags: ["package", "membership", "create", "product"]
+      difficulty: "beginner"
+      
+    - title: "Add New Retail Product"
+      file: "add_new_retail_product.md"
+      description: "Create new retail products with inventory management and marketing settings"
+      tags: ["retail", "product", "create", "inventory"]
+      difficulty: "beginner"
+      
+    - title: "Add New Gift Card Product"
+      file: "add_new_gift_card.md"
+      description: "Set up new gift card products with value options and redemption rules"
+      tags: ["gift card", "product", "create", "redemption"]
+      difficulty: "beginner"
+      
+    - title: "Create New Product Promotion"
+      file: "create_new_product_promotion.md"
+      description: "Create promotional offers with pricing, restrictions, and marketing settings"
+      tags: ["promotion", "create", "discount", "marketing"]
+      difficulty: "intermediate"
+
+Product Management:
+  description: "Tools and procedures for managing existing products"
+  items:
+    - title: "Manage Existing Package or Membership"
+      file: "manage_existing_package_membership.md"
+      description: "Edit, activate/deactivate, and manage packages and memberships with favorites and task creation"
+      tags: ["package", "membership", "edit", "manage", "status"]
+      difficulty: "intermediate"
+      
+    - title: "Manage Existing Retail Product"
+      file: "manage_existing_retail_product.md"
+      description: "Edit retail products, manage inventory status, and control product visibility"
+      tags: ["retail", "product", "edit", "inventory", "status"]
+      difficulty: "intermediate"
+      
+    - title: "Manage Existing Gift Card"
+      file: "manage_existing_gift_card.md"
+      description: "Edit gift card details, control availability, and manage redemption settings"
+      tags: ["gift card", "edit", "manage", "redemption", "status"]
+      difficulty: "intermediate"
+      
+    - title: "Manage Existing Promotions"
+      file: "manage_existing_promotions.md"
+      description: "Edit promotion details, control activation status, and manage marketing settings"
+      tags: ["promotion", "edit", "manage", "status", "marketing"]
+      difficulty: "intermediate"
+
+Product Analytics:
+  description: "Detailed views and analytics for product performance and usage"
+  items:
+    - title: "Detailed View of Package or Membership"
+      file: "detailed_view_package_membership.md"
+      description: "View comprehensive product details, sales analytics, user data, and activity tracking"
+      tags: ["package", "membership", "analytics", "sales", "users", "activity"]
+      difficulty: "intermediate"
+      
+    - title: "Detailed View of Retail Products"
+      file: "detailed_view_retail_products.md"
+      description: "Analyze retail product performance, inventory metrics, sales trends, and customer behavior"
+      tags: ["retail", "product", "analytics", "inventory", "sales", "users"]
+      difficulty: "intermediate"
+      
+    - title: "Detailed View of Gift Card"
+      file: "detailed_view_gift_card.md"
+      description: "Monitor gift card performance, redemption rates, usage patterns, and customer engagement"
+      tags: ["gift card", "analytics", "redemption", "usage", "performance"]
+      difficulty: "intermediate"
+      
+    - title: "Detailed View of Promotions"
+      file: "detailed_view_promotions.md"
+      description: "Track promotion usage, user adoption, restrictions, and redemption success rates"
+      tags: ["promotion", "analytics", "usage", "users", "restrictions", "redemption"]
+      difficulty: "intermediate"
+
+common_urls:
+  admin_dashboard: "https://coreology.staging.mgrapp.com/next/admin"
+  packages_section: "https://coreology.staging.mgrapp.com/admin/products/packages"
+  retail_section: "https://coreology.staging.mgrapp.com/admin/products/retail-items"
+  gift_card_section: "https://coreology.staging.mgrapp.com/admin/products/gift-card"
+  promotions_section: "https://coreology.staging.mgrapp.com/admin/promotions"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex issues" 

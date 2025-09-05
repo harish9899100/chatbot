@@ -1,0 +1,19 @@
+module: "Account Deletion Management"
+description: "Comprehensive guides for managing client account deletion requests and data removal processes in the admin dashboard"
+
+Account Deletion Requests:
+  description: "Tools and procedures for reviewing and processing client account deletion requests"
+  items:
+    - title: "Account Deletion Requests"
+      file: "account-deletion-requests.md"
+      description: "Step-by-step instructions for accessing and managing client account deletion requests with profile review capabilities"
+      tags: ["deletion", "requests", "clients", "profiles", "data-removal", "compliance"]
+      difficulty: "intermediate"
+
+common_urls:
+  account_deletion_dashboard: "https://coreology.staging.mgrapp.com/admin/account-deletion-requests"
+  admin_dashboard: "https://coreology.staging.mgrapp.com/next/admin"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex account deletion issues" 

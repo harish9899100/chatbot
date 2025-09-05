@@ -1,0 +1,114 @@
+module: "Scheduling"
+description: "Comprehensive guides for managing classes, schedules, rooms, and bookings in the admin dashboard"
+
+Class Creation:
+  description: "Guides for creating new classes and class templates"
+  items:
+    - title: "Add New Daily Class"
+      file: "add-new-daily-class.md"
+      description: "Step-by-step instructions for creating new classes in the daily schedule view"
+      tags: ["classes", "create", "daily", "schedule"]
+      difficulty: "beginner"
+      
+    - title: "Add New Weekly Class"
+      file: "add-new-weekly-class.md"
+      description: "Create new classes using the weekly schedule view for better context"
+      tags: ["classes", "create", "weekly", "schedule"]
+      difficulty: "beginner"
+      
+    - title: "Add New Class in Classes"
+      file: "add-new-class-in-classes.md"
+      description: "Create class templates that can be used for scheduling multiple instances"
+      tags: ["classes", "template", "create", "management"]
+      difficulty: "beginner"
+
+Schedule Management:
+  description: "Tools and procedures for managing class schedules and recurring patterns"
+  items:
+    - title: "Add New Schedule"
+      file: "add-new-schedule.md"
+      description: "Create recurring class schedules with custom patterns and frequency settings"
+      tags: ["schedule", "recurring", "pattern", "bulk"]
+      difficulty: "intermediate"
+      
+    - title: "Manage Existing Classes"
+      file: "manage-existing-classes.md"
+      description: "Edit, cancel, mark free, and modify existing scheduled classes"
+      tags: ["classes", "edit", "cancel", "manage"]
+      difficulty: "beginner"
+      
+    - title: "Manage Existing Schedules"
+      file: "manage-existing-schedules.md"
+      description: "Edit, cancel, and deactivate existing schedules with comprehensive management options"
+      tags: ["schedule", "edit", "cancel", "deactivate", "manage"]
+      difficulty: "intermediate"
+      
+    - title: "Manage Class"
+      file: "manage-class.md"
+      description: "Comprehensive guide for managing individual classes including reservations, attendance, and administrative functions"
+      tags: ["class", "manage", "reservations", "attendance", "sign-in", "sign-out"]
+      difficulty: "intermediate"
+
+Infrastructure Management:
+  description: "Configure and manage rooms and facilities for class scheduling"
+  items:
+    - title: "Add New Room"
+      file: "add-new-room.md"
+      description: "Set up new rooms with capacity, layout, and equipment specifications"
+      tags: ["rooms", "create", "capacity", "layout"]
+      difficulty: "beginner"
+      
+    - title: "Manage Existing Rooms"
+      file: "manage-existing-rooms.md"
+      description: "Edit room details, view layouts, and delete rooms with comprehensive management options"
+      tags: ["rooms", "edit", "layout", "delete", "manage"]
+      difficulty: "intermediate"
+
+Task Management:
+  description: "Create and manage tasks associated with classes and schedules"
+  items:
+    - title: "Add Task for Class"
+      file: "add-task-for-class.md"
+      description: "Create tasks linked to specific classes with attachments, assignments, and priority settings"
+      tags: ["tasks", "create", "class", "attachments", "assignments"]
+      difficulty: "intermediate"
+
+Class Operations:
+  description: "Administrative operations for managing class activities and instructor changes"
+  items:
+    - title: "Substitute Instructor"
+      file: "substitute-instructor.md"
+      description: "Replace instructors for existing classes with availability and qualification verification"
+      tags: ["instructor", "substitute", "change", "availability"]
+      difficulty: "intermediate"
+      
+    - title: "Mark Class End of Day Closeout"
+      file: "mark-class-end-of-day-closeout.md"
+      description: "Mark completed classes as closed for daily operations and reporting"
+      tags: ["closeout", "daily", "complete", "reporting"]
+      difficulty: "beginner"
+      
+    - title: "Mark Reservation as Paid"
+      file: "mark-reservation-as-paid.md"
+      description: "Update reservation status to paid by selecting appropriate packages and confirming changes"
+      tags: ["reservation", "payment", "package", "status"]
+      difficulty: "beginner"
+
+Data Management:
+  description: "Export and analyze class and scheduling data"
+  items:
+    - title: "Export Class Data"
+      file: "export-class-data.md"
+      description: "Export class schedules and booking data in CSV and XLSX formats for reporting"
+      tags: ["export", "data", "csv", "xlsx", "reports"]
+      difficulty: "beginner"
+  
+common_urls:
+  admin_dashboard: "https://coreology.staging.mgrapp.com/next/admin"
+  schedule_dashboard: "https://coreology.staging.mgrapp.com/next/admin/schedule"
+  classes_dashboard: "https://coreology.staging.mgrapp.com/next/admin/classes"
+  rooms_dashboard: "https://coreology.staging.mgrapp.com/next/admin/rooms"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex scheduling issues" 

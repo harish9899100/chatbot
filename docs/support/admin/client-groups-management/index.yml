@@ -1,0 +1,35 @@
+module: "Client Groups Management"
+description: "Comprehensive guides for creating, managing, and organizing client groups in the admin dashboard"
+
+Group Creation:
+  description: "Guides for creating and setting up new client groups"
+  items:
+    - title: "Add New User Group"
+      file: "add-new-user-group.md"
+      description: "Step-by-step instructions for creating new user groups with manual client selection and group settings"
+      tags: ["groups", "create", "manual", "static", "setup"]
+      difficulty: "beginner"
+
+Group Management:
+  description: "Tools and procedures for managing existing client groups and group information"
+  items:
+    - title: "Manage Existing Client Group"
+      file: "manage-existing-client-group.md"
+      description: "Edit group details, manage membership, and delete client groups"
+      tags: ["groups", "edit", "manage", "delete", "membership", "update"]
+      difficulty: "beginner"
+      
+    - title: "Client Group Display"
+      file: "client-group-display.md"
+      description: "Comprehensive guide to viewing and managing detailed client group information including member management, group editing, and activity tracking"
+      tags: ["groups", "display", "view", "members", "edit", "activity", "timeline"]
+      difficulty: "intermediate"
+
+common_urls:
+  admin_dashboard: "https://coreology.staging.mgrapp.com/next/admin"
+  client_groups_dashboard: "https://coreology.staging.mgrapp.com/next/admin/user_groups"
+  client_groups_api: "https://coreology.staging.mgrapp.com/admin/user_groups"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex client group management issues" 

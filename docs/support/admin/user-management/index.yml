@@ -1,0 +1,42 @@
+module: "User Management"
+description: "Comprehensive guides for managing staff accounts, roles, and settings in the admin dashboard"
+
+Staff Onboarding:
+  description: "Guide for creating and setting up new staff accounts"
+  items:
+    - title: "Add New Staff"
+      file: "add-new-staff.md"
+      description: "Step-by-step instructions for creating new staff accounts with profile details and role assignments"
+      tags: ["staff", "create", "onboarding", "roles"]
+      difficulty: "beginner"
+
+Staff Management:
+  description: "Tools and procedures for managing existing staff members"
+  items:
+    - title: "Manage Existing Staff"
+      file: "manage-existing-staff.md"
+      description: "Edit staff profiles, update information, and reset passwords for existing team members"
+      tags: ["staff", "edit", "profile", "password"]
+      difficulty: "beginner"
+      
+    - title: "Staff Account Status"
+      file: "staff-account-status.md"
+      description: "Activate and deactivate staff accounts while preserving historical data"
+      tags: ["staff", "status", "activate", "deactivate"]
+      difficulty: "intermediate"
+
+Compensation Management:
+  description: "Configure and manage staff compensation structures"
+  items:
+    - title: "Staff Pay Rates"
+      file: "staff-pay-rates.md"
+      description: "Set up and manage different pay rate types including flat rates, per-client, and per-class compensation"
+      tags: ["payroll", "rates", "compensation", "payment"]
+      difficulty: "intermediate"
+  
+common_urls:
+  staff_dashboard: "https://coreology.staging.mgrapp.com/next/admin/staff"
+  
+support:
+  contact: "system administrator or technical support"
+  escalation: "Refer to technical support documentation for complex issues" 
