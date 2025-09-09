@@ -1,2 +1,6 @@
 # gemini api key
 .env
+
+# this file autometicaly created when using jupyter notebook 
+.ipynb_checkpoints/
+
